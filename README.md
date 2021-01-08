@@ -11,6 +11,8 @@ Dependencies:
 * ThingSpeak library (install through the Arduino IDE)
 * ESP8266 WiFi library (installed through the Arduino IDE)
 
+View the posted data at: https://thingspeak.com/channels/1276553
+
 The code updates ThingSpeak every 60 seconds, alternating between the two variables (so temp and humidity are each updated every 2 minutes). This is fine for my purposes, but it should be possible to code for both to be updated at the same time by creating a string. I will probably do this if/when I add more sensors to the platform (e.g. for air quality). 
 
 I have not included much if any error handling. This is not production quality code.
